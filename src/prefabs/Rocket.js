@@ -6,6 +6,7 @@ class Rocket extends Phaser.GameObjects.Sprite {
         // add object to existing scene (displayList, updateList)
         scene.add.existing(this);
         // track rocket's firing status
+        this.isFiring = false;
     }
 
     update() {
