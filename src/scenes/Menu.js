@@ -27,7 +27,7 @@ class Menu extends Phaser.Scene {
 
         // show menu text
         let centerX = game.config.width/2;
-        let centerY = game.config.width/2;
+        let centerY = game.config.height/2;
         let textSpacer = 64;
 
         this.add.text(centerX, centerY- textSpacer, 'ROCKET PATROL', menuConfig).setOrigin(0.5);
