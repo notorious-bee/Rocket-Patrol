@@ -49,7 +49,7 @@ class Play extends Phaser.Scene {
 
         // score display
         let scoreConfig = {
-            fontFamily: 'Super Mario Bros.',
+            fontFamily: 'Courier',
             fontSize: '28px',
             backgroundColor: '#F3B141',
             color: '#843605',
