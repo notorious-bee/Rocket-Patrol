@@ -11,7 +11,8 @@ class Menu extends Phaser.Scene {
     }
 
     create() {
-        // menu display (WILL BE CHANGED)
+        // menu display
+        this.load.image('title background', './assets/title background.png');
         let menuConfig = {
             fontFamily: 'Courier',
             fontSize: '28px',
