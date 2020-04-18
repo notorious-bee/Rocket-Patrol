@@ -11,7 +11,6 @@ let config = {
 }
 
 let game = new Phaser.Game(config);
-this.load.image('title background', './assets/title background.png');
 
 // define game settings
 game.settings = {
